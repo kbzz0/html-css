@@ -2,7 +2,8 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(46, 46, 46);
+    background-image: url(imagens/background.jpg);
+    background-repeat: no-repeat;
 }
 
 *{
@@ -189,6 +190,7 @@ footer > p{
 .famoso{
     color: white;
 }
+
 .menu{
     background-color: var(--cor1);
     padding: 5px;
