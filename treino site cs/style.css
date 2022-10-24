@@ -4,6 +4,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(imagens/background.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 *{
@@ -30,7 +31,7 @@ mark{
 
 main{
     min-width: 400px;
-    max-width: 1000px;
+    max-width: 850px;
     margin: auto;
     margin-bottom: 0px;
     background-color: white;
@@ -140,7 +141,7 @@ nav > a{
 }
 
 nav > a:hover{
-    color: var(--cor2);
+    color: #2362d6;
     border-radius: 4px;
 }
 
@@ -153,22 +154,21 @@ nav.site{
     font-weight: bold;
 }
 
-div.videos{
-    background-color: #141515;
-    margin: 0px -20px -20px -20px;
+.videos{
+    margin: 0px -20px 10px -20px;
     position: relative;
-    padding-bottom:50%;
+    padding-bottom:51.5%;
 }
 
-div.videos > h3{
+.videos > h3{
     background-color: var(--cor1);
     color: black;
     padding: 10px;
 }
 
-div.videos > iframe{
+.videos > iframe{
     position: absolute;
-    left: 10%;
+    left: 11%;
     width: 80%;
     height: 80%;
 }
