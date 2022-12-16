@@ -53,6 +53,10 @@ section{
     font-size: 1em;
 }
 
+section > p{
+    padding-bottom: 2em;
+}
+
 section.normal{
     color: black;
     background-color: white;   
@@ -61,11 +65,28 @@ section.normal{
 section.img{
     background-color: rgb(78, 78, 78);
     color: white;
+    background-attachment: fixed;
 }
 
 section.img > p{
     width: 400px;
     background-color: rgba(0, 0, 0, 0.26);
+}
+
+section#img1{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img2{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+}
+
+section#img3{
+    background-image: url(imagens/mc-igu.jpg);
+    background-size: cover;
 }
 
 footer{
