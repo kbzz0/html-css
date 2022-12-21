@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    position: relative;
+    border-collapse: collapse;
+}
+
+caption{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(34, 33, 34);
+    color: white;
+    font-size: 1.3em;
+}
+
+
+td, th{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+thead tr th{
+    position:sticky;
+    top: 0;
+    background-color: rgb(43, 42, 43);
+}
+
+.exa{
+    background-color: rgb(43, 42, 43);
+    color: white;
+}
+
+thead{
+    background-color: rgb(43, 42, 43);
+    color: white;
+}
