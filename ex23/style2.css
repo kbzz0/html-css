@@ -7,6 +7,7 @@ body{
 table{
     width: 450px;
     border-collapse: collapse;
+    position: relative;
 }
 
 caption{
@@ -25,6 +26,12 @@ tbody tr:nth-child(2n){
 td, th{
     border: 1px solid black;
     padding: 8px;
+}
+
+thead tr th{
+    position:sticky;
+    top: 0;
+    background-color: rgb(43, 42, 43);
 }
 
 .num{
