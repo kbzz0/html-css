@@ -34,3 +34,6 @@ thead, tfoot{
     color: white;
 }
 
+#con{
+    overflow-x: auto;
+}
