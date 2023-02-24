@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #141515;
+    text-align: center;
+    min-height: 150px;
+}
+
+header > h1{
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+menu{
+    display: block;
+}
+
+menu > ul > li > a{
+    background-color: #363636;
+    list-style-type: none;
+    padding: 8px;
+    display: block;
+    color: white;
+    border-top: 2px solid;
+    transition-duration: .4s;
+}
+
+menu > ul > li > a:hover{
+    background-color: #464545;
+}
+
+main{
+    width: 90vh;
+    margin: auto;
+}
+
+p{
+    padding: 8px;
+}
