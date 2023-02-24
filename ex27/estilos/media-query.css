@@ -4,10 +4,19 @@
 
     span#burguer{
         display: none;
+        text-align: left;
     }
 
-    menu.itens{
+    menu#itens{
         display: block;
+        text-align: left;
     }
 
+    #itens > ul > li{
+        display: inline-block;
+    }
+ 
+    main{
+        width: 768px;
+    }
 }

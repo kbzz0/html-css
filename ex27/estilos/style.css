@@ -39,12 +39,12 @@ menu{
 }
 
 menu > ul > li > a{
-    background-color: #363636;
+    background-color: #141515;
     list-style-type: none;
     padding: 10px;
     display: block;
     color: white;
-    border-top: 2px solid;
+    border-top: 0px solid;
     transition-duration: .4s;
     text-decoration: none;
 }
