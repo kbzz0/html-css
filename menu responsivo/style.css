@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    color: slateblue;
+}
+
+a{
+    color: white;
+    transition-duration: .3s;
+    text-decoration: none; 
+}
+
+a:hover{
+    opacity: .7;
+}
+
+.logo{
+    font-size: 24PX;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(62, 3, 85) ;
+    height: 15vh;
+}
+
+main{
+    background-color: black;
+    height: 85vh;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+}
+
+.list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div{
+    margin: 8px;
+    width: 32px;
+    height: 2px;
+    background-color: white;
+}
