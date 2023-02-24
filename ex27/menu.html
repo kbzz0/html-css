@@ -6,12 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
         
-        <menu>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+        </span>
+        
+        <menu id="itens">
             <ul>
                 <li><a href="#">Teste 1 </a></li>
                 <li><a href="#">Teste 2 </a></li>
@@ -24,24 +29,32 @@
     </header>
 
     <main>
-        <h1>Testando Media Queries</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aspernatur ad laudantium. Saepe, facilis dolorem quos dolorum quis quod ratione aut nisi voluptas consectetur recusandae quisquam delectus iure illum dolore. <br>
-        
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo sed nostrum in, sint maxime libero expedita, ut debitis quasi dolore magnam ab quidem natus dolores itaque nobis. Pariatur, ad esse! <br>
-        </p>
-
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti officiis tenetur quo architecto sunt atque animi aspernatur ex enim error, illum labore dolorum officia? Velit ratione labore totam placeat numquam. <br>
+        <article>
+            <h1>Testando Media Queries</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aspernatur ad laudantium. Saepe, facilis dolorem quos dolorum quis quod ratione aut nisi voluptas consectetur recusandae quisquam delectus iure illum dolore. <br>
             
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ea quisquam est dolore quaerat incidunt corporis illo commodi velit, ad at delectus repellendus doloribus modi totam deleniti iste expedita fuga? <br>
-        </p>
-
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quis labore quam dignissimos vero pariatur repellendus quidem excepturi voluptate veritatis facere nesciunt, sint itaque. Libero veritatis mollitia amet quia autem. <br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo sed nostrum in, sint maxime libero expedita, ut debitis quasi dolore magnam ab quidem natus dolores itaque nobis. Pariatur, ad esse! <br>
+            </p>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti officiis tenetur quo architecto sunt atque animi aspernatur ex enim error, illum labore dolorum officia? Velit ratione labore totam placeat numquam. <br>
             
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, dolor minima tempore, rem perferendis saepe consectetur vel ipsum recusandae quisquam dolorem cumque, ipsam possimus impedit maxime accusantium temporibus eligendi repellendus. <br>
-        </p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ea quisquam est dolore quaerat incidunt corporis illo commodi velit <br>
+            </p>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quis labore quam dignissimos vero pariatur repellendus quidem excepturi voluptate veritatis facere nesciunt, sint itaque. Libero veritatis mollitia amet quia autem. <br>
+            </p>
+        </article>
     </main>
+
+    <script>
+        function clickMenu () {
+            if(itens.style.display == 'block'){
+                itens.style.display = 'none'
+            }else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>

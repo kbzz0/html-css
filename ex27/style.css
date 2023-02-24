@@ -5,30 +5,48 @@
     padding: 0px;
 }
 
+body{
+    background-color: rgb(43, 43, 43);
+}
+
 header{
     background-color: #141515;
     text-align: center;
-    min-height: 150px;
 }
 
 header > h1{
     color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+span#burguer{
+    color: white;
+    background-color: #363636;
+    margin: auto;
+    cursor: pointer;
+    padding: 10px;
+    display: block;
+}
+
+span#burguer:hover{
+    background-color: #141515;
+    transition-duration: .4s;
 }
 
 menu{
-    display: block;
+    display: none;
 }
 
 menu > ul > li > a{
     background-color: #363636;
     list-style-type: none;
-    padding: 8px;
+    padding: 10px;
     display: block;
     color: white;
     border-top: 2px solid;
     transition-duration: .4s;
+    text-decoration: none;
 }
 
 menu > ul > li > a:hover{
@@ -36,8 +54,12 @@ menu > ul > li > a:hover{
 }
 
 main{
-    width: 90vh;
+    width: 90vw;
     margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    margin-top: 5px;
 }
 
 p{
