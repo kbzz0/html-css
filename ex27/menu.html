@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="stylesheet" href="estilos/style.css">
+
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu Site</h1>
         
@@ -16,7 +18,7 @@
             menu
         </span>
         
-        <menu id="itens">
+        <menu class="itens">
             <ul>
                 <li><a href="#">Teste 1 </a></li>
                 <li><a href="#">Teste 2 </a></li>
@@ -55,6 +57,16 @@
                 itens.style.display = 'block'
             }
         }
+
+        function mudouTamanho () {
+            if (window.innerWidth >= 768){
+                itens.style.display = 'block'
+            }else{
+                itens.style.display = 'none'
+            }
+        
+        }
+
     </script>
 </body>
 </html>
